@@ -1,0 +1,30 @@
+Nykaa Product Data Analysis
+
+Dataset Overview:
+The dataset contains 625 products from Nykaa, covering details like Product Name, Brand, Category, Price, Rating, Reviews Count, and more. Some columns had missing or inconsistent data, which required cleaning.
+
+Data Cleaning Steps:
+
+Converted numeric fields (Product Price, Product Rating) to proper numeric types.
+
+Filled missing values for Product Category, Product Url, Product Tags, and Product Contents with placeholders like Unknown or Not Provided.
+
+Replaced missing numeric values with medians (for Price and Rating) or 0 (for Reviews Count).
+
+Removed duplicate entries based on Product Id.
+
+Analysis Highlights:
+
+Identified top brands and categories by number of products, average price, ratings, and reviews.
+
+Found the most expensive, least expensive, highest-rated, and lowest-rated products.
+
+Visualizations highlight key trends in pricing, popularity, and customer feedback across brands and categories.
+
+Key Insights:
+
+Some premium brands like DIOR, CADIVEU, and Burberry have the highest average prices and ratings.
+
+Brands like SUGAR and Nykaa Naturals have the most reviews, indicating strong customer engagement.
+
+Categories like Hair Care and Fragrance dominate in average price, while Skin and Natural products show high ratings and reviews.
